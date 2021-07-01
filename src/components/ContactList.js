@@ -6,7 +6,16 @@ const ContactList =(props)=>{
     const deleteContactHandler =(id)=>{
         props.getContactId(id);
     };
-    const renderCotactList =props.contacts.map((contact) =>{
+    const contacts = [
+        {
+        id: "1",
+        name : "Aziz",
+        email: "aziz@gmail.com",
+
+
+    },
+] ;
+    const renderCotactList =contacts.map((contact) =>{
         return(
            <ContactCard contact ={contact} clickHander = {deleteContactHandler} 
            key = {contact.id}

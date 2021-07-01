@@ -1,4 +1,5 @@
 import React from "react";
+import "./AddContact.css"
 
 class AddContact extends React.Component{
     state ={

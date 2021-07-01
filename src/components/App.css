@@ -1,0 +1,7 @@
+*{
+    margin-top: 10px;
+}
+.ui container center{
+    margin: center;
+    margin-right: inherit;
+}
